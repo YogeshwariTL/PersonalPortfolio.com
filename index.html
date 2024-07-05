@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9c794fd18b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certification">Certifications</a></li>
+                <li><a href="#portfolio">projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Certified Full Stack Java Developer</p>
+            <h1>Hi,I'm<span>Yogeshwari</span><br>From Banglore</h1>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/aboutPic.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="content">Completed Information Science and Engineering from Maharaja Institute of Technology
+                     Thandavpura Seeking a challenging  position in a reputed organization Where I can learn new skills,
+                      expand my knowledge, and leverage my learning .To get an opportunity Where I can make the best of
+                      my potential and contribute to the organization’s growth.</p>
+            
+                <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('training')">Training/Internship</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Programming languages</span><br>java,C</li>
+                    <li><span>Other Technology</span><br>Java Full Stack Deveopment,HTML,CSS,Java Script</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="training">
+                <ul>
+                    <li><span>2022-2024</span><br>Java Full Stack Development Course From Kodnest</li>
+                    <li><span>2022-23</span><br>Trained for Young professional under TCS ION Career Edge 2022</li>
+                    <li><span>2022</span><br>completed Machine Learning Internship from </li>
+                </ul>
+            </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2023-2024</span><br>Java full Stack Development Course at Kodnest</li>
+                    <li><span>2022-2023</span><br>BE (Information Science and engineering) From MITT Mysore</li>
+                    <li><span>2017-2019</span><br>PCMB from DPBS College Periyapatna</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>   
+<!-- --------------------------Cerification----------------------- -->
+<div id="certification">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="certification-list">
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java full stack deveopment</h2>
+                <p>Completed comphrehensive java full stack development offline training from kodnest Banglore.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>TCS iOn Career Edge course</h2>
+                <p>Trained for Young  Professional under TCS iON Career edge 2022</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Advance SQL Course</h2>
+                <p>Completed advance SQL course Fro Kodnest banglore in the year 2023</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------portfolio------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/cardiovascular.jpg">
+                <div class="layout">
+                    <h3>Cardio Vascular Disease Prediction</h3>
+                    <p>Cardio vascular Disease Prediction using ML,The aim of this project is to develop an accurate and efficent model for predicting the presence of cardiovascular Disease in individuals</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="images/attendance.png">
+                <div class="layout">
+                    <h3>Attendance Management System</h3>
+                    <p>A simple demonstration of 'Attendance Management System' in MySQL.It is a software developed for daily attendance of student and make use of database In order to keep a record of attendance and It is used while generating a report.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="images/tender.jpg">
+                <div class="layout">
+                    <h3>Tender Management System</h3>
+                    <p>Application to maintain records of tender and billing.It provides the facility to make offline orders and get over everything done.and all the data will get stored in the text file.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+            </div>
+                
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -----------Contact--------- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p ><i class="fa-solid fa-paper-plane"></i>yogshwariyogi71@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i></i>7259775679</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/invites/contact/?igsh=1hvx5reo9ma79&utm_content=9b45ulb"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/yogeshwari-tl-1466a0281"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/YogeshwariTL"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/yogikunch.gowda?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/Yogeshwari_TL_BE(ISE).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>               
+            </div>
+        </div>
+        <div class="copyright">
+        <p>Copyright © yogi. Made with <i class="fa-solid fa-heart"></i> by Yogeshwari</p>
+    </div>
+     </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxDah9kiHQhqj6o_3XSP0LfRLjX3wtfVTB-iAsMmRegWSBlfvnMQL7vmjI0jb3yUqos1Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
